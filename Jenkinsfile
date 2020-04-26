@@ -162,4 +162,7 @@ spec:
           sh "sed -i.bak 's#gcr.io/app-engine-demo-100/node-app#${imageTag}#' ./node-app/deployment.yaml"
           sh 'kubectl apply -f ./node-app/deployment.yaml'
         }
-  
+      }
+    }
+  }  
+}  
